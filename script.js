@@ -15,7 +15,7 @@ chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         console.log(request.message);
         document.body.style.backgroundColor = request.message;
-        sendResponse({ message: "Received message!" });
+        sendResponse({ message: "Recieved!!!!!!" });
     }
 );
 
