@@ -1,0 +1,12 @@
+body {
+    background-color: brown;
+}
+
+h2.brand-header {
+    font-family: cursive;
+}
+
+div.container {
+    font-weight: bolder;
+    color: yellowgreen;
+}

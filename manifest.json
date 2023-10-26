@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Learning Extensions",
+    "description": "description of the Extension",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.ulethbridge.ca/*"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
