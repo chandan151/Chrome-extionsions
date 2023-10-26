@@ -10,3 +10,7 @@ div.container {
     font-weight: bolder;
     color: yellowgreen;
 }
+
+div.container p {
+    font-size: 1.5em;
+}
