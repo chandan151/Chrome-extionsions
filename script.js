@@ -16,7 +16,7 @@ chrome.runtime.onMessage.addListener(
         console.log(request.message);
         document.body.style.backgroundColor = request.message;
 
-        let newbg = chrome.runtime.geturl("images/hall.png");
+        let newbg = chrome.runtime.getURL("images/hall.png");
         document.getElementsByClassName("hero-main")[0].style.backgroundImage = `url(${newbg})`;
 
         const newimg = document.createElement("img");
