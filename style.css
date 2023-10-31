@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "Perfect";
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/Perfect Beloved.otf') format("opentype");
+}
+
 body {
     background-color: brown;
 }
 
 h2.brand-header {
-    font-family: cursive;
+    font-family: Perfect;
 }
 
 div.container {
@@ -11,6 +16,11 @@ div.container {
     color: yellowgreen;
 }
 
-div.container p {
-    font-size: 1.5em;
+.hero-main.hero-bg-center {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/pexels-andre-melcher-1006363.jpg');
+}
+
+.new-img {
+    width: 100%;
+    height: 100%;
 }
